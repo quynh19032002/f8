@@ -1,0 +1,46 @@
+:root{
+    /* để đặt 1 biến sử dụng 2 dấu gạch ngang */
+    --text-color: red;
+    /* gán cho biến text-color màu đỏ */
+}
+/* ====>>>> Giúp thay đổi style của nhiều phần tử cùng 1 lúc */
+/* ĐÂY LÀ CÁCH ĐẶT BIẾN GLOBLE, 
+có thể đặt ở mọi nơi css trong file html này
+*/
+
+
+
+
+
+
+
+
+/* ======CÁCH LÀM CŨ========= */
+/* h1{
+    color: red
+} */
+
+
+/* ========CÁCH LÀM MỚI========== */
+/* sử dụng css function */
+
+h1{
+    color: var(--text-color);
+}
+h2{
+    color: var(--text-color);
+}
+h3{
+    color: var(--text-color);
+}
+h4{
+    color: var(--text-color);
+}
+
+/* CÁCH ĐẶT LOCAL 
+sử dụng luôn trogn 1 selector cụ thể*/
+/* ưu tiên hơn biến GLOBLE */
+h5{
+    --my-color: green;
+    color: var(--my-color);
+}

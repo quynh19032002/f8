@@ -1,0 +1,15 @@
+/* giúp điều chỉnh kích thước cho website của chúng ta */
+html{
+    font-size: 20px;
+}
+
+.box{
+    width: 50%;
+    height: 100px;
+    background-color: red;
+}
+h1{
+    /* font-size: 40px; */
+    font-size: 2em;
+}
+
